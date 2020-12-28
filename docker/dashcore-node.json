@@ -1,6 +1,6 @@
 {
   "network": "livenet",
-  "port": 3001,
+  "port": 23506,
   "services": [
     "dashd",
     "web",
@@ -10,7 +10,7 @@
     "dashd": {
       "connect": [{
         "rpchost": "127.0.0.1",
-        "rpcport": 9998,
+        "rpcport": 23505,
         "rpcuser": "dashrpc",
         "rpcpassword": "password",
         "zmqpubrawtx": "tcp://127.0.0.1:29998",
